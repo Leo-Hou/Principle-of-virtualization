@@ -1,0 +1,63 @@
+libvirt创建虚拟机磁盘参数解析
+
+libvirt通过xml配置文件来配置虚拟机，在为虚拟机添加磁盘时，相应虚拟机xml文件中磁盘的配置参数大致如下描述：
+  <devices>
+    <emulator>/usr/libexec/qemu-kvm</emulator>
+    <disk type='file' device='cdrom'>
+      <driver name='qemu' type='raw'/>
+      <target dev='hda' bus='ide'/>
+      <readonly/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/centos7.0.qcow2'/>
+      <target dev='hdb' bus='ide'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='1'/>
+    </disk>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/centos7.0-1.qcow2'/>
+      <target dev='sda' bus='sata'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/centos7.0-2.qcow2'/>
+      <target dev='sdb' bus='scsi'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='1'/>
+    </disk>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/centos7.0-3.qcow2'/>
+      <target dev='vda' bus='virtio'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x09' function='0x0'/>
+    </disk>
+  </devices>
+
+1、参数解析
+
+1）<devices>：所有的设备都是一个名为devices元素的子设备(All devices occur as children of the main devices element.）。
+
+2）<emulator>：元素指定模拟设备二进制文件的全路径:<emulator>/usr/bin/kvm</emulator>
+3）disk:是一个描述disks的主要容器，type特性包括:file,block,dir,network。
+4）device：描述disk如何受到Guest OS的，特性包括：floppy、disk、cdrom、lun，默认是disk。
+5）source元素：在disk的type是file时，file属性指定一个合格的全路径文件映像作为客户端的磁盘，在disk的type是block 时，dev属性指定一个主机设备的路径作为disk，在disk的type是dir时，dir属性指定一个全路径的目录作为disk，在disk的 type是network时，protocol属性指定协议用来访问镜像，镜像的值可以是：nbd，rbd，sheepdog。当protocal的属性 值是rbd或者sheepdog时，必须用一个额外的name属性指定使用那个镜像，当type的值是network时，source可以有0个或者多个 host字属性指定连接哪些主机。
+6）target元素：dev属性表明本地磁盘在Guest OS上的实际名称，因为实际设备的名称指定并不能保证映射到Guest OS上的设备。bus属性指定了哪种类型的磁盘被模拟，主要有：ide、scsi、virtio、usb、sata驱动器接口类型，其中virtio是半虚拟化设备驱动。dev和bus的对应关系如下：
+<target dev='hda' bus='ide'/>
+<target dev='sda' bus='sata'/>
+<target dev='sdb' bus='scsi'/>
+<target dev='vda' bus='virtio'/>
+
+2、ide、scsi、sata、virtio区别
+1）IDE(Intergrated Device Electronics)
+SCSI的出现主要是由于原有IDE接口的硬盘转速比较低，传输效率比较慢。由于SCSI硬盘独立于系统总线工作，所以它的最大优点就在于系统的占用率低，当然它还有一些优点，转速高，传输速率快，更稳定。但也有一些缺点，价格高，安装没有IDE方便。IDE一般是有扁平电缆连接的，一个扁平电缆可以连接2个IDE硬盘，而一个计算机一般提供2个扁平电缆，所以一般允许4块IDE硬盘。IDE经过多年的发展，成熟，廉价，稳定。一般老式的电脑中装的都是这种硬盘。
+
+2） SATA(Serial-ATA)
+SATA是串行ATA，是近些年的新兴技术，数据校验更为完整，传输速度也更快，快到什么程度呢?SATA1.0的标准已经达到150M/s了，至于后续的2.0和3.0，则是可以达到300M/S和600M/S的。总之SATA是一项新技术，在各个方面都比IDE更加出色，所以总的来讲，IDE迟早会被SATA完全取代的，只是时间问题而已
+
+3） SCSI(Small Computer System Interface:小型计算机系统接口)
+SCSI是一种连结主机和外围设备的接口，支持包括磁盘驱动器、磁带机、光驱、扫描仪在内的多种设备 。它由SCSI控制器进行数据操作，SCSI控制器相当于一块小型CPU，有自己的命令集和缓存，SCSI的出现主要是由于原有IDE接口的硬盘转速比较低，传输效率比较慢。由于SCSI硬盘独立于系统总线工作，所以它的最大优点就在于系统的占用率低，当然它还有一些优点，转速高，传输速率快，更稳定。但也有一些缺点，价格高，安装没有IDE方便。
+
+4）virtio
+virtio 是一种 I/O 半虚拟化解决方案，是一套通用 I/O 设备虚拟化的程序，是对半虚拟化 Hypervisor 中的一组通用 I/O 设备的抽象。提供了一套上层应用与各 Hypervisor 虚拟化设备（KVM，Xen，VMware等）之间的通信框架和编程接口，减少跨平台所带来的兼容性问题，提高驱动程序开发效率。
