@@ -1,0 +1,883 @@
+Date: Fri, 25 Sep 2020 15:41:08 +0800
+Message-ID: <00013e88$79de7b10$6ffb6f4c$YinXiangBiJi>
+MIME-Version: 1.0
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Evernote® v6.21.4.2051
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"YXBJ Windows/602051 (zh-CN, =
+DDL); Windows/10.0.0 (Win64); EDAMVersion=3DV2;"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"777"/>
+
+<div>=0A<span><div><font style=3D"font-size: 12pt;"><b>python =
+=E6=A8=A1=E6=8B=9F=E6=B5=8F=E8=A7=88=E5=99=A8=E7=99=BB=E5=BD=95web=E7=BD=91=
+=E7=AB=99</b></font></div><div><font style=3D"font-size: =
+12pt;"><br/></font></div><div><span style=3D"font-weight: bold;"><font =
+style=3D"font-size: =
+12pt;">=E8=83=8C=E6=99=AF=EF=BC=9A</font></span></div><div><font =
+style=3D"font-size: =
+12pt;">=E8=BF=91=E6=9C=9F=E5=9C=A8=E6=90=9E=E4=B8=80=E4=B8=AA=E6=A8=A1=E6=
+=8B=9F=E6=B5=8F=E8=A7=88=E5=99=A8=E7=99=BB=E5=BD=95web=E7=BD=91=E7=AB=99=E7=
+=9A=84=E5=B0=8F=E9=A1=B9=E7=9B=AE=EF=BC=8C=E7=84=B6=E5=90=8E=E7=BB=8F=E8=BF=
+=873=E5=A4=A9=E5=AD=A6=E4=B9=A0=EF=BC=8C=E5=BC=80=E5=90=AF=E4=BA=86python=
+=E5=B0=8F=E7=99=BD=E7=9A=84=E4=BB=A3=E7=A0=81=E7=94=9F=E6=B6=AF=E3=80=82<=
+/font></div><div><b><font style=3D"font-size: =
+12pt;"><br/></font></b></div><div><b><font style=3D"font-size: =
+12pt;">=E6=96=B9=E6=A1=88=EF=BC=9A</font></b></div><div><span =
+style=3D"color: unset; font-family: unset;"><font style=3D"font-size: =
+12pt;">=E6=9C=AC=E6=96=B9=E6=A1=88=E9=87=87=E7=94=A8python2=E5=92=8Creque=
+sts=E5=BA=93=E5=AE=9E=E7=8E=B0=E3=80=82</font></span></div><div><span =
+style=3D"color: unset; font-family: unset;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div><span style=3D"color: unset; =
+font-family: unset;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div><b><font style=3D"font-size: =
+12pt;"><span style=3D"color: unset; font-family: =
+unset;">1.Python=C2=A0</span><span style=3D"color: unset; font-family: =
+unset;">requests =E4=BB=8B=E7=BB=8D</span></font></b></div><div><b><span =
+style=3D"color: unset; font-family: unset;"><font style=3D"font-size: =
+12pt;">1=EF=BC=89=E5=AF=BC=E5=85=A5=E6=A8=A1=E5=9D=97</font></span></b></=
+div><div><font style=3D"font-size: 12pt;"><span style=3D"line-height: =
+30px; width: 640px; font-variant-ligatures: normal; font-variant-caps: =
+normal; letter-spacing: normal; orphans: 2; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; clear: both; outline: 0px !important; =
+word-break: break-all !important; border-radius: 0px !important; border: =
+0px !important; bottom: auto !important; height: auto !important; =
+overflow: visible !important; position: static !important; right: auto =
+!important; top: auto !important; box-sizing: content-box !important; =
+font-family: Consolas, &quot;Bitstream Vera Sans Mono&quot;, =
+&quot;Courier New&quot;, Courier, monospace !important; min-height: auto =
+!important; color: rgb(0, 102, 153) !important; white-space: pre =
+!important;"><span>=C2=A0=C2=A0</span> import</span> <span =
+style=3D"line-height: 30px; width: 640px; font-variant-ligatures: =
+normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; clear: both; outline: 0px !important; =
+word-break: break-all !important; border-radius: 0px !important; border: =
+0px !important; bottom: auto !important; height: auto !important; =
+overflow: visible !important; position: static !important; right: auto =
+!important; top: auto !important; box-sizing: content-box !important; =
+font-family: Consolas, &quot;Bitstream Vera Sans Mono&quot;, =
+&quot;Courier New&quot;, Courier, monospace !important; min-height: auto =
+!important; color: black !important; white-space: pre =
+!important;">requests</span></font></div><div><span style=3D"color: =
+unset; font-family: unset;"><b><font style=3D"font-size: =
+12pt;"><br/></font></b></span></div><div><b><font style=3D"font-size: =
+12pt;">2=EF=BC=89=E8=AF=B7=E6=B1=82=E6=96=B9=E6=B3=95</font></b></div><di=
+v style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"outline: none; line-height: 30px; color: rgb(34, =
+34, 34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>1=C2=A0 =
+=C2=A0requests.get()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 # =
+GET=E8=AF=B7=E6=B1=82</font></span></div><div style=3D"margin: 0px; =
+padding: 0px 4px; outline: none; line-height: 30px; color: rgb(34, 34, =
+34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><span style=3D"outline: none; =
+line-height: 30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>2=C2=A0 =
+=C2=A0requests.post()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 # POST=E8=AF=B7=E6=B1=82</font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"outline: none; line-height: 30px; color: rgb(34, =
+34, 34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>3=C2=A0 =
+=C2=A0requests.put()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0# =
+PUT=E8=AF=B7=E6=B1=82</font></span></div><div style=3D"margin: 0px; =
+padding: 0px 4px; outline: none; line-height: 30px; color: rgb(34, 34, =
+34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><span style=3D"outline: none; =
+line-height: 30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>4=C2=A0 =
+=C2=A0requests.delete()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0# DELETE=E8=AF=B7=E6=B1=82</font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"outline: none; line-height: 30px; color: rgb(34, =
+34, 34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>5=C2=A0 =
+=C2=A0requests.head()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 # HEAD=E8=AF=B7=E6=B1=82</font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"outline: none; line-height: 30px; color: rgb(34, =
+34, 34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>6=C2=A0 =
+=C2=A0requests.options()=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0# OPTIONS=E8=AF=B7=E6=B1=82</font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"outline: none; line-height: 30px; color: rgb(34, =
+34, 34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"margin: 0px; padding: 0px =
+4px; outline: none; line-height: 30px; color: rgb(34, 34, 34); =
+font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><span style=3D"outline: none; =
+line-height: 30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px;"><font =
+style=3D"font-size: =
+12pt;"><b>3=EF=BC=89=E5=93=8D=E5=BA=94=E5=86=85=E5=AE=B9</b></font></span=
+></div><div style=3D"text-align: left;"><span style=3D"color: rgb(34, =
+34, 34); font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>r.encoding=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+#=E8=8E=B7=E5=8F=96=E5=BD=93=E5=89=8D=E7=9A=84=E7=BC=96=E7=A0=81</font></=
+span></div><div style=3D"text-align: left;"><span style=3D"color: =
+rgb(34, 34, 34); font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>r.encoding =
+=3D =
+'utf-8'=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0#=E8=AE=BE=E7=BD=AE=E7=BC=96=E7=A0=81</font></span></div><div=
+ style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.text=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0 =C2=A0 =
+=C2=A0</span>#=E4=BB=A5encoding=E8=A7=A3=E6=9E=90=E8=BF=94=E5=9B=9E=E5=86=
+=85=E5=AE=B9=E3=80=82=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=96=B9=E5=BC=8F=E7=9A=84=
+=E5=93=8D=E5=BA=94=E4=BD=93=EF=BC=8C=E4=BC=9A=E8=87=AA=E5=8A=A8=E6=A0=B9=E6=
+=8D=AE=E5=93=8D=E5=BA=94=E5=A4=B4=E9=83=A8=E7=9A=84=E5=AD=97=E7=AC=A6=E7=BC=
+=96=E7=A0=81=E8=BF=9B=E8=A1=8C=E8=A7=A3=E7=A0=81=E3=80=82</font></span></=
+div><div style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, =
+34); font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.content=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0#=E4=BB=A5=E5=AD=97=E8=8A=82=E5=BD=A2=E5=BC=8F=EF=BC=88=E4=BA=8C=E8=
+=BF=9B=E5=88=B6=EF=BC=89=E8=BF=94=E5=9B=9E=E3=80=82=E5=AD=97=E8=8A=82=E6=96=
+=B9=E5=BC=8F=E7=9A=84=E5=93=8D=E5=BA=94=E4=BD=93=EF=BC=8C=E4=BC=9A=E8=87=AA=
+=E5=8A=A8=E4=B8=BA=E4=BD=A0=E8=A7=A3=E7=A0=81 gzip =E5=92=8C deflate =
+=E5=8E=8B=E7=BC=A9=E3=80=82</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.headers=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0<span>=C2=A0=C2=A0</span>#=E4=BB=A5=E5=AD=97=E5=85=B8=E5=
+=AF=B9=E8=B1=A1=E5=AD=98=E5=82=A8=E6=9C=8D=E5=8A=A1=E5=99=A8=E5=93=8D=E5=BA=
+=94=E5=A4=B4=EF=BC=8C=E4=BD=86=E6=98=AF=E8=BF=99=E4=B8=AA=E5=AD=97=E5=85=B8=
+=E6=AF=94=E8=BE=83=E7=89=B9=E6=AE=8A=EF=BC=8C=E5=AD=97=E5=85=B8=E9=94=AE=E4=
+=B8=8D=E5=8C=BA=E5=88=86=E5=A4=A7=E5=B0=8F=E5=86=99=EF=BC=8C=E8=8B=A5=E9=94=
+=AE=E4=B8=8D=E5=AD=98=E5=9C=A8=E5=88=99=E8=BF=94=E5=9B=9ENone</font></spa=
+n></div><div style=3D"text-align: left;"><span style=3D"color: rgb(34, =
+34, 34); font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.status_code=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0#=
+=E5=93=8D=E5=BA=94=E7=8A=B6=E6=80=81=E7=A0=81</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.raw=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0=C2=A0</span> =
+#=E8=BF=94=E5=9B=9E=E5=8E=9F=E5=A7=8B=E5=93=8D=E5=BA=94=E4=BD=93=EF=BC=8C=
+=E4=B9=9F=E5=B0=B1=E6=98=AF urllib =E7=9A=84 response =
+=E5=AF=B9=E8=B1=A1=EF=BC=8C=E4=BD=BF=E7=94=A8 =
+r.raw.read()=C2=A0=C2=A0=C2=A0</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.ok=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0 =
+=C2=A0=C2=A0</span>#=E6=9F=A5=E7=9C=8Br.ok=E7=9A=84=E5=B8=83=E5=B0=94=E5=80=
+=BC=E4=BE=BF=E5=8F=AF=E4=BB=A5=E7=9F=A5=E9=81=93=E6=98=AF=E5=90=A6=E7=99=BB=
+=E9=99=86=E6=88=90=E5=8A=9F</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">=E7=89=B9=E6=AE=8A=E6=96=B9=E6=B3=95=EF=BC=9A</span><br/></font>=
+</div><div style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, =
+34); font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>r.json()=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0#Requests=E4=B8=AD=E5=86=85=E7=BD=AE=E7=9A=84JSON=E8=
+=A7=A3=E7=A0=81=E5=99=A8=EF=BC=8C=E4=BB=A5json=E5=BD=A2=E5=BC=8F=E8=BF=94=
+=E5=9B=9E,=E5=89=8D=E6=8F=90=E8=BF=94=E5=9B=9E=E7=9A=84=E5=86=85=E5=AE=B9=
+=E7=A1=AE=E4=BF=9D=E6=98=AFjson=E6=A0=BC=E5=BC=8F=E7=9A=84=EF=BC=8C=E4=B8=
+=8D=E7=84=B6=E8=A7=A3=E6=9E=90=E5=87=BA=E9=94=99=E4=BC=9A=E6=8A=9B=E5=BC=82=
+=E5=B8=B8</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><font style=3D"font-size: 12pt;"><span style=3D"color: rgb(34, 34, =
+34); font-family: tahoma;"><span>=C2=A0=C2=A0</span> =
+r.raise_for_status()=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0#=E5=A4=B1=E8=B4=A5=E8=AF=B7=E6=B1=82(=E9=9D=9E20=
+0=E5=93=8D=E5=BA=94)=E6=8A=9B=E5=87=BA=E5=BC=82=E5=B8=B8</span><br/></fon=
+t></div><div style=3D"margin: 0px; padding: 0px 4px; outline: none; =
+line-height: 30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><span style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"margin: 0px; padding: 0px 4px; outline: none; line-height: =
+30px; color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"><font style=3D"font-size: 12pt;"><b>4=EF=BC=89get=C2=A0<span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma, arial, =
+&quot;Microsoft YaHei&quot;; font-variant-ligatures: normal; =
+font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: =
+0px;">=E8=8E=B7=E5=8F=96=E7=BD=91=E9=A1=B5</span></b></font></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0<span>=C2=A0=C2=A0</span></span> import =
+requests</font></span></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><span>=C2=A0 =C2=A0</span> r =3D =
+requests.get('</span><a href=3D"https://github.com/" =
+style=3D"font-family: tahoma;">https://github.com/</a><span =
+style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">')</span></font></div><div style=3D"margin: 0px; padding: 0px =
+4px; outline: none; line-height: 30px; color: rgb(34, 34, 34); =
+font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><b><br/></b></font></span></div><div style=3D"margin: 0px; =
+padding: 0px 4px; outline: none; line-height: 30px; color: rgb(34, 34, =
+34); font-family: tahoma, arial, &quot;Microsoft YaHei&quot;; =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><b>5=EF=BC=89post =
+=E5=8F=91=E9=80=81=E7=99=BB=E5=BD=95=E4=BF=A1=E6=81=AF</b></font></div><d=
+iv style=3D"text-align: left;"><font style=3D"font-size: 12pt;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;">=C2=A0 =C2=A0 url =
+=3D '</span><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><a =
+href=3D"https://github.com/session">https://github.com/session</a></span>=
+<span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">'</span></font></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>postdata =3D =
+{</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0=C2=A0 =
+=C2=A0</span>'username':'*',</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0<span>=C2=A0=C2=A0 =
+=C2=A0</span>=C2=A0'password':'*'</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>}</font></span></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;">=C2=A0 =
+=C2=A0</span><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">=C2=A0</span><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;">r =3D requests.post(url, =
+data=3Dpostdata</span><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;">)</span></font></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><b><font style=3D"font-size: 12pt;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">6=EF=BC=89</span><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;">Session</span><span style=3D"color: rgb(34, 34, =
+34); font-family: =
+tahoma;">=E4=BC=9A=E8=AF=9D=E5=AF=B9=E8=B1=A1</span></font></b></div><div=
+ style=3D"text-align: left;"><font style=3D"font-size: 12pt;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;">=C2=A0 =C2=A0 =
+=E4=B8=BA=E5=9C=A8</span><span style=3D"color: rgb(34, 34, 34); =
+font-family: =
+tahoma;">=E8=B7=A8=E8=AF=B7=E6=B1=82=E4=BF=9D=E6=8C=81=E6=9F=90=E4=BA=9B=E5=
+=8F=82=E6=95=B0=EF=BC=8C=E9=87=87=E7=94=A8</span><span style=3D"color: =
+rgb(34, 34, 34); font-family: =
+tahoma;">Session=E4=BC=9A=E8=AF=9D=EF=BC=9A</span></font></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>ses =3D =
+requests.Session()</font></span></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span style=3D"color: rgb(34, =
+34, 34); font-family: tahoma;"><span>=C2=A0=C2=A0 =C2=A0</span>r =3D =
+ses.get('</span><a href=3D"https://github.com/" style=3D"font-family: =
+tahoma;">https://github.com/</a><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;">')</span></font></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;"><b><span =
+style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;">7=EF=BC=89</span><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;">status_code</span><span style=3D"color: rgb(34, =
+34, 34); font-family: =
+tahoma;">=E5=93=8D=E5=BA=94=E7=8A=B6=E6=80=81=E7=A0=81</span></b><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><b>=C2=A0 =
+=C2=A0</b> =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0</span></font></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">=C2=A0 =C2=A0</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;"># =
+=E4=BF=A1=E6=81=AF=E6=80=A7=E7=8A=B6=E6=80=81=E7=A0=81</font></span></div=
+><div style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">100: =
+('continue',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">101: =
+('switching_protocols',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">102: =
+('processing',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">103: =
+('checkpoint',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">122: ('uri_too_long', =
+'request_uri_too_long'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;"># =
+=E6=88=90=E5=8A=9F=E7=8A=B6=E6=80=81=E7=A0=81</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">200: ('ok', =
+'okay', 'all_ok', 'all_okay', 'all_good', '\\o/', =
+'=E2=9C=93'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">201: ('created',),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">202: =
+('accepted',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">203: ('non_authoritative_info', =
+'non_authoritative_information'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">204: =
+('no_content',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">205: ('reset_content', =
+'reset'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">206: ('partial_content', =
+'partial'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">207: ('multi_status', 'multiple_status', =
+'multi_stati', 'multiple_stati'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">208: =
+('already_reported',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">226: =
+('im_used',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;"># =
+=E9=87=8D=E5=AE=9A=E5=90=91=E7=8A=B6=E6=80=81=E7=A0=81</font></span></div=
+><div style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">300: =
+('multiple_choices',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">301: ('moved_permanently', =
+'moved', '\\o-'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">302: =
+('found',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">303: ('see_other', =
+'other'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">304: =
+('not_modified',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">305: =
+('use_proxy',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">306: =
+('switch_proxy',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">307: ('temporary_redirect', =
+'temporary_moved', 'temporary'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">308: =
+('permanent_redirect',</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0'resume_incomplete', =
+'resume',), # These 2 to be removed in 3.0</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: =
+12pt;"><br/></font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;"># =
+=E5=AE=A2=E6=88=B7=E7=AB=AF=E9=94=99=E8=AF=AF=E7=8A=B6=E6=80=81=E7=A0=81<=
+/font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">400: ('bad_request', =
+'bad'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">401: =
+('unauthorized',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">402: ('payment_required', =
+'payment'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">403: ('forbidden',),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">404: =
+('not_found', '-o-'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">405: ('method_not_allowed', =
+'not_allowed'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">406: =
+('not_acceptable',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">407: =
+('proxy_authentication_required', 'proxy_auth', =
+'proxy_authentication'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">408: ('request_timeout', =
+'timeout'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">409: ('conflict',),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">410: =
+('gone',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">411: =
+('length_required',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">412: ('precondition_failed', =
+'precondition'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">413: =
+('request_entity_too_large',),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">414: =
+('request_uri_too_large',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">415: =
+('unsupported_media_type', 'unsupported_media', =
+'media_type'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">416: ('requested_range_not_satisfiable', =
+'requested_range', 'range_not_satisfiable'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">417: =
+('expectation_failed',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">418: ('im_a_teapot', 'teapot', =
+'i_am_a_teapot'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">421: =
+('misdirected_request',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">422: ('unprocessable_entity', =
+'unprocessable'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">423: =
+('locked',),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">424: ('failed_dependency', =
+'dependency'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">425: ('unordered_collection', =
+'unordered'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">426: ('upgrade_required', =
+'upgrade'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">428: ('precondition_required', =
+'precondition'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">429: ('too_many_requests', =
+'too_many'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">431: ('header_fields_too_large', =
+'fields_too_large'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">444: ('no_response', =
+'none'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">449: ('retry_with', =
+'retry'),</font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">450: ('blocked_by_windows_parental_controls', =
+'parental_controls'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">451: =
+('unavailable_for_legal_reasons', =
+'legal_reasons'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">499: =
+('client_closed_request',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;"># =
+=E6=9C=8D=E5=8A=A1=E7=AB=AF=E9=94=99=E8=AF=AF=E7=8A=B6=E6=80=81=E7=A0=81<=
+/font></span></div><div style=3D"text-align: left;"><span =
+style=3D"color: rgb(34, 34, 34); font-family: tahoma;"><font =
+style=3D"font-size: 12pt;">500: ('internal_server_error', =
+'server_error', '/o\\', '=E2=9C=97'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">501: =
+('not_implemented',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">502: =
+('bad_gateway',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">503: ('service_unavailable', =
+'unavailable'),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">504: =
+('gateway_timeout',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">505: =
+('http_version_not_supported', 'http_version'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">506: =
+('variant_also_negotiates',),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">507: =
+('insufficient_storage',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">509: =
+('bandwidth_limit_exceeded', 'bandwidth'),</font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: rgb(34, 34, 34); =
+font-family: tahoma;"><font style=3D"font-size: 12pt;">510: =
+('not_extended',),</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: rgb(34, 34, 34); font-family: =
+tahoma;"><font style=3D"font-size: 12pt;">511: =
+('network_authentication_required', 'network_auth', =
+'network_authentication')</font></span></div><div style=3D"text-align: =
+left;"><span style=3D"color: unset; font-family: unset; font-weight: =
+bold;"><font style=3D"font-size: 12pt;"><br/></font></span></div><div =
+style=3D"text-align: left;"><span style=3D"color: unset; font-family: =
+unset; font-weight: bold;"><font style=3D"font-size: 12pt;">2.Python =
+logging=E6=A8=A1=E5=9D=97</font></span></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><b>1=EF=BC=89 =
+=E5=88=9D=E5=A7=8B=E5=8C=96=C2=A0</b></font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;">=C2=A0 =
+=C2=A0 =C2=A0 logger =3D =
+logging.getLogger(&quot;endlesscode&quot;)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;">=C2=A0 =
+=C2=A0 =C2=A0 =
+getLogger()=E6=96=B9=E6=B3=95=E5=90=8E=E9=9D=A2=E6=9C=80=E5=A5=BD=E5=8A=A0=
+=E4=B8=8A=E6=89=80=E8=A6=81=E6=97=A5=E5=BF=97=E8=AE=B0=E5=BD=95=E7=9A=84=E6=
+=A8=A1=E5=9D=97=E5=90=8D=E5=AD=97=EF=BC=8C=E5=90=8E=E9=9D=A2=E7=9A=84=E6=97=
+=A5=E5=BF=97=E6=A0=BC=E5=BC=8F=E4=B8=AD=E7=9A=84%(name)s =
+=E5=AF=B9=E5=BA=94=E7=9A=84=E6=98=AF=E8=BF=99=E9=87=8C=E7=9A=84=E6=A8=A1=E5=
+=9D=97=E5=90=8D=E5=AD=97=E3=80=82</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: =
+12pt;"><b>2=EF=BC=89=E8=AE=BE=E7=BD=AE=E7=BA=A7=E5=88=AB</b></font></div>=
+<div style=3D"text-align: left;"><font style=3D"font-size: 12pt;">=C2=A0 =
+=C2=A0 =C2=A0logger.setLevel(logging.DEBUG)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: 12pt;">=C2=A0 =
+=C2=A0 =C2=A0Logging=E4=B8=AD=E6=9C=89NOTSET &lt; DEBUG &lt; INFO &lt; =
+WARNING &lt; ERROR &lt; =
+CRITICAL=E8=BF=99=E5=87=A0=E7=A7=8D=E7=BA=A7=E5=88=AB=EF=BC=8C=E6=97=A5=E5=
+=BF=97=E4=BC=9A=E8=AE=B0=E5=BD=95=E8=AE=BE=E7=BD=AE=E7=BA=A7=E5=88=AB=E4=BB=
+=A5=E4=B8=8A=E7=9A=84=E6=97=A5=E5=BF=97=E3=80=82</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><b>3=EF=BC=89Handler</b></font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;">=C2=A0 =C2=A0 =
+=C2=A0=E5=B8=B8=E7=94=A8=E7=9A=84=E6=98=AFStreamHandler=E5=92=8CFileHandl=
+er=EF=BC=8C=E4=BE=8B=E5=A6=82=E6=8E=A7=E5=88=B6=E5=8F=B0=E6=88=96=E6=97=A5=
+=E5=BF=97=E6=96=87=E4=BB=B6=E3=80=82</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><b>4=EF=BC=89formatter</b></font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;">=C2=A0 =C2=A0 =
+=C2=A0=E5=AE=9A=E4=B9=89=E4=BA=86=E6=9C=80=E7=BB=88log=E4=BF=A1=E6=81=AF=E7=
+=9A=84=E9=A1=BA=E5=BA=8F,=E7=BB=93=E6=9E=84=E5=92=8C=E5=86=85=E5=AE=B9=EF=
+=BC=9A</font></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(name)s =
+Logger=E7=9A=84=E5=90=8D=E5=AD=97</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>%(levelname)s =
+=E6=96=87=E6=9C=AC=E5=BD=A2=E5=BC=8F=E7=9A=84=E6=97=A5=E5=BF=97=E7=BA=A7=E5=
+=88=AB</font></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(message)s =
+=E7=94=A8=E6=88=B7=E8=BE=93=E5=87=BA=E7=9A=84=E6=B6=88=E6=81=AF</font></d=
+iv><div style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(asctime)s =
+=E5=AD=97=E7=AC=A6=E4=B8=B2=E5=BD=A2=E5=BC=8F=E7=9A=84=E5=BD=93=E5=89=8D=E6=
+=97=B6=E9=97=B4=E3=80=82=E9=BB=98=E8=AE=A4=E6=A0=BC=E5=BC=8F=E6=98=AF =
+=E2=80=9C2003-07-08 =
+16:49:45,896=E2=80=9D=E3=80=82=E9=80=97=E5=8F=B7=E5=90=8E=E9=9D=A2=E7=9A=84=
+=E6=98=AF=E6=AF=AB=E7=A7=92</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>%(levelno)s =
+=E6=95=B0=E5=AD=97=E5=BD=A2=E5=BC=8F=E7=9A=84=E6=97=A5=E5=BF=97=E7=BA=A7=E5=
+=88=AB</font></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(pathname)s =
+=E8=B0=83=E7=94=A8=E6=97=A5=E5=BF=97=E8=BE=93=E5=87=BA=E5=87=BD=E6=95=B0=E7=
+=9A=84=E6=A8=A1=E5=9D=97=E7=9A=84=E5=AE=8C=E6=95=B4=E8=B7=AF=E5=BE=84=E5=90=
+=8D=EF=BC=8C=E5=8F=AF=E8=83=BD=E6=B2=A1=E6=9C=89</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(filename)s =
+=E8=B0=83=E7=94=A8=E6=97=A5=E5=BF=97=E8=BE=93=E5=87=BA=E5=87=BD=E6=95=B0=E7=
+=9A=84=E6=A8=A1=E5=9D=97=E7=9A=84=E6=96=87=E4=BB=B6=E5=90=8D</font></div>=
+<div style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(module)s=C2=A0 =
+=E8=B0=83=E7=94=A8=E6=97=A5=E5=BF=97=E8=BE=93=E5=87=BA=E5=87=BD=E6=95=B0=E7=
+=9A=84=E6=A8=A1=E5=9D=97=E5=90=8D</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>%(funcName)s =
+=E8=B0=83=E7=94=A8=E6=97=A5=E5=BF=97=E8=BE=93=E5=87=BA=E5=87=BD=E6=95=B0=E7=
+=9A=84=E5=87=BD=E6=95=B0=E5=90=8D</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>%(lineno)d =
+=E8=B0=83=E7=94=A8=E6=97=A5=E5=BF=97=E8=BE=93=E5=87=BA=E5=87=BD=E6=95=B0=E7=
+=9A=84=E8=AF=AD=E5=8F=A5=E6=89=80=E5=9C=A8=E7=9A=84=E4=BB=A3=E7=A0=81=E8=A1=
+=8C</font></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(created)f =
+=E5=BD=93=E5=89=8D=E6=97=B6=E9=97=B4=EF=BC=8C=E7=94=A8UNIX=E6=A0=87=E5=87=
+=86=E7=9A=84=E8=A1=A8=E7=A4=BA=E6=97=B6=E9=97=B4=E7=9A=84=E6=B5=AE =
+=E7=82=B9=E6=95=B0=E8=A1=A8=E7=A4=BA</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(relativeCreated)d =
+=E8=BE=93=E5=87=BA=E6=97=A5=E5=BF=97=E4=BF=A1=E6=81=AF=E6=97=B6=E7=9A=84=EF=
+=BC=8C=E8=87=AALogger=E5=88=9B=E5=BB=BA=E4=BB=A5 =
+=E6=9D=A5=E7=9A=84=E6=AF=AB=E7=A7=92=E6=95=B0</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(thread)d =
+=E7=BA=BF=E7=A8=8BID=E3=80=82=E5=8F=AF=E8=83=BD=E6=B2=A1=E6=9C=89</font><=
+/div><div style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(threadName)s =
+=E7=BA=BF=E7=A8=8B=E5=90=8D=E3=80=82=E5=8F=AF=E8=83=BD=E6=B2=A1=E6=9C=89<=
+/font></div><div style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>%(process)d =
+=E8=BF=9B=E7=A8=8BID=E3=80=82=E5=8F=AF=E8=83=BD=E6=B2=A1=E6=9C=89<br/></f=
+ont></div><div style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><b>5=EF=BC=89=E7=A4=BA=E4=BE=8B=EF=BC=9A</b></font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>import logging</font></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: 12pt; color: =
+rgb(34, 34, 34); font-family: tahoma;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>url =3D '</span><a href=3D"https://github.com/session" =
+style=3D"font-size: 12pt; color: rgb(34, 34, 34); font-family: =
+tahoma;">https://github.com/session</a><span style=3D"font-size: 12pt; =
+color: rgb(34, 34, 34); font-family: tahoma;">'</span><br/></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: 12pt; color: =
+rgb(34, 34, 34); font-family: tahoma;"><br/></span></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>logger =3D =
+logging.getLogger(__name__)</font></div><div style=3D"text-align: =
+left;"><font style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>logger.setLevel(level =3D logging.INFO)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>handler =3D =
+logging.FileHandler(&quot;test.log&quot;)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>handler.setLevel(logging.INFO)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =C2=A0</span>formatter =3D =
+logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - =
+%(message)s')</font></div><div style=3D"text-align: left;"><font =
+style=3D"font-size: 12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>handler.setFormatter(formatter)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><span>=C2=A0=C2=A0 =
+=C2=A0</span>logger.addHandler(handler)</font></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><br/><span>=C2=A0=C2=A0 =
+=C2=A0</span>logger.info(url)</font></div><div style=3D"text-align: =
+left;"><br/><span style=3D"color: unset; font-family: unset; =
+font-weight: bold; font-size: 12pt;">3.Python =
+=E6=8F=90=E5=8F=96=E5=AD=97=E7=AC=A6=E4=B8=B2</span><br/></div><div =
+style=3D"text-align: left;"><span style=3D"color: unset; font-family: =
+unset; font-weight: bold; font-size: 12pt;">=C2=A0</span> <span =
+style=3D"color: unset; font-family: unset; font-size: =
+12pt;">=C2=A0</span><span style=3D"font-size: =
+12pt;">import=C2=A0re</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">=C2=A0 =C2=A0s =3D 'it is a =
+test'</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">=C2=A0 =C2=A0res =3D re.findall(r'a(.*)', =
+s)</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">=C2=A0=C2=A0</span><span style=3D"font-size: =
+12pt;">logger.info(res)</span></div><div style=3D"text-align: =
+left;"><span style=3D"font-size: 12pt;"><br/></span></div><div =
+style=3D"text-align: left;"><font style=3D"font-size: =
+12pt;"><b>4.=E7=99=BB=E5=BD=95=E7=A4=BA=E4=BE=8B</b></font></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: 12pt;">import =
+requests</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;"><br/></span></div><div style=3D"text-align: =
+left;"><span style=3D"font-size: 12pt;">conn =3D =
+requests.session()</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">url =3D '<a =
+href=3D"http://bbs.chinaunix.net/member.php?mod=3Dlogging&amp;action=3Dlo=
+gin&amp;loginsubmit=3Dyes&amp;loginhash=3DLIcAc">http://bbs.chinaunix.net=
+/member.php?mod=3Dlogging&amp;action=3Dlogin&amp;loginsubmit=3Dyes&amp;lo=
+ginhash=3DLIcAc</a>'</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">postdata =3D {</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0'username':'zhaoxn04',</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0'password':'wobugaosuni2004'</span></div><=
+div style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;">}</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">headers =3D {</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) =
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 =
+Safari/537.36'}</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">rep =3D conn.post(url, =
+data=3Dpostdata,headers=3Dheaders)</span></div><div style=3D"text-align: =
+left;"><span style=3D"font-size: 12pt;">with open('1.html', 'wb') as =
+f:</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0f.write(rep.content)</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;"><br/></span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: 12pt;">url1 =3D '<a =
+href=3D"http://bbs.chinaunix.net/thread-4246512-1-1.html">http://bbs.chin=
+aunix.net/thread-4246512-1-1.html</a>'</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: 12pt;">rep1 =3D =
+conn.get(url1, headers=3Dheaders)</span></div><div style=3D"text-align: =
+left;"><span style=3D"font-size: 12pt;">with open('2.html', 'wb') as =
+f:</span></div><div style=3D"text-align: left;"><span =
+style=3D"font-size: =
+12pt;">=C2=A0=C2=A0=C2=A0=C2=A0f.write(rep1.content)</span></div><div =
+style=3D"text-align: left;"><span style=3D"font-size: =
+12pt;"><br/></span><br/></div><div style=3D"margin: 0px; padding: 0px =
+4px; outline: none; line-height: 30px; color: rgb(34, 34, 34); =
+font-variant-ligatures: normal; font-variant-caps: normal; =
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px;"><font style=3D"font-size: =
+12pt;"><br/></font></div><div style=3D"margin: 0px; padding: 0px 4px; =
+outline: none; line-height: 30px; color: rgb(34, 34, 34); font-family: =
+tahoma, arial, &quot;Microsoft YaHei&quot;; font-variant-ligatures: =
+normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: =
+0px;"></div><div style=3D"margin: 0px !important; padding: 0px 1em =
+!important; outline: 0px !important; word-break: break-all !important; =
+border-radius: 0px !important; background: none rgb(252, 252, 252) =
+!important; border: 0px !important; bottom: auto !important; float: none =
+!important; height: auto !important; left: auto !important; line-height: =
+17.6px; overflow: visible !important; position: static !important; =
+right: auto !important; text-align: left; top: auto !important; width: =
+auto !important; box-sizing: content-box !important; font-family: =
+Consolas, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, =
+Courier, monospace; font-size: 16px; min-height: auto !important; color: =
+rgb(159, 184, 204); white-space: pre !important; font-variant-ligatures: =
+normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; =
+text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; =
+-webkit-text-stroke-width: =
+0px;"><br/></div></span>=0A</div></body></html>
+ 
